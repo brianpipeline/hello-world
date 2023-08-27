@@ -3,3 +3,4 @@ buildContainer: java17
 envsToDeployTo: ["dev", "stage", "prod"]
 serviceName: "hello-world-service"
 # one day, read app version from pom, gradle build, or package.json.
+
