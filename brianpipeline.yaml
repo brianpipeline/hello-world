@@ -1,4 +1,4 @@
-dockerfile.path: "."
+dockerfile.path: "./Dockerfile"
 buildContainer: java17
 envsToDeployTo: ["dev", "stage", "prod"]
 serviceName: "hello-world-service"
