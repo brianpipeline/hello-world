@@ -14,6 +14,6 @@ public class HelloWorldController {
     @ResponseBody
     public String helloWorld(@Value("${env.var}") String thing) {
         System.out.println(thing);
-        return "wassup!";
+        return "something else!";
     }
 }
